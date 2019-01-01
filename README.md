@@ -1,12 +1,8 @@
 ## Java and Spring Interview Guides
 
-[![Image](https://www.in28minutes.com/course-promotional-images/Spring-Framework-Interview-Guide-200-Questions-Answers.png "Spring Framework Interview Guide - 200+ Questions & Answers")](https://www.udemy.com/spring-interview-questions-and-answers/?couponCode=LEARN-2019)
-
-[![Image](https://www.in28minutes.com/course-promotional-images/Java-Interview-Guide-200-Interview-Questions-and-Answers.png "Java Interview Guide : 200+ Interview Questions and Answers")](https://www.udemy.com/java-interview-questions-and-answers/?couponCode=LEARN-2019)
-
 # Useful interview resources
-- Lambda Expressions and Streams : https://www.youtube.com/watch?v=7YBPb64h2l4
-- Java MultiThreading : https://www.youtube.com/watch?v=AfVbJDr-8ic
+- Lambda Expressions and Streams : https://www.youtube.com/watch?v=7YBPb64h2l4 (video corrupted), 
+- ~~Java MultiThreading : https://www.youtube.com/watch?v=AfVbJDr-8ic & https://github.com/forhadmethun/java-cheat-sheet#thread~~
 - Java Interview Questions and Answers : https://www.youtube.com/watch?v=5aHZABb1Iwk
 - Java Collections Interview Questions and Answers : https://www.youtube.com/watch?v=3hgYHXDVh-o
 - Exception Handling : https://www.youtube.com/watch?v=wj3UmzeyrvE
@@ -73,7 +69,7 @@
   - Maven : https://www.udemy.com/learn-maven-java-dependency-management-in-20-steps/?couponCode=MAVEN-UTUBE-1
 
 # JSPs
-- Reference 
+- Reference
   - https://github.com/in28minutes/RealWorldWebApplicationWithServletsAndJspIn28Minutes/blob/master/Java%20JEE%20Web%20Applicaiton%20In28Minutes.pdf
   - Code : https://github.com/in28minutes/JavaWebApplicationStepByStep
   - 60 Minute Video on JSP Servlets : https://www.youtube.com/watch?v=Vvnliarkw48
