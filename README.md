@@ -1,13 +1,22 @@
 ## Java and Spring Interview Guides
 
-# Useful interview resources
-- Lambda Expressions and Streams : https://www.youtube.com/watch?v=7YBPb64h2l4 (video corrupted), 
+
+
+
+### Useful interview resources
+- ~~Lambda Expressions and Streams : https://www.youtube.com/watch?v=7YBPb64h2l4 (video corrupted) & https://github.com/forhadmethun/java-cheat-sheet#stream~~
+
 - ~~Java MultiThreading : https://www.youtube.com/watch?v=AfVbJDr-8ic & https://github.com/forhadmethun/java-cheat-sheet#thread~~
+
 - Java Interview Questions and Answers : https://www.youtube.com/watch?v=5aHZABb1Iwk
-- Java Collections Interview Questions and Answers : https://www.youtube.com/watch?v=3hgYHXDVh-o
+
+- ~~Java Collections Interview Questions and Answers : https://www.youtube.com/watch?v=3hgYHXDVh-o & https://github.com/forhadmethun/java-cheat-sheet#collection-interfaces~~
+
 - Exception Handling : https://www.youtube.com/watch?v=wj3UmzeyrvE
+
 - JUnit : https://www.youtube.com/watch?v=o5k9NOR9lrI
 - Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY
+
 - Eclipse : https://www.youtube.com/watch?v=s4ShbtOHMCA
 - Mockito : https://www.youtube.com/watch?v=d2KwvXQgQx4
 - Spring MVC : https://www.youtube.com/watch?v=BjNhGaZDr0Y
@@ -18,8 +27,8 @@
 - https://github.com/in28minutes/Java-EE-Design-Patterns/blob/master/JavaEE%20Design%20Patterns%20and%20Architecture%20-%20Presentation%20v0.7.pdf
 
 
-# Our Best Free Courses
-- Spring : http://udemy.com/spring-tutorial-for-beginners/
+~~# Our Best Free Courses(not a free course -_- )~~
+- ~~Spring : http://udemy.com/spring-tutorial-for-beginners/~~
 
 # OOPS Interview Questions
 - Code Examples : https://github.com/in28minutes/JavaObjectOrientedProgramming
@@ -100,23 +109,60 @@
   - Java EE Design Patterns : https://github.com/in28minutes/Java-EE-Design-Patterns/blob/master/JavaEE%20Design%20Patterns%20and%20Architecture%20-%20Presentation%20v0.7.pdf
   - Java Design Patterns : https://github.com/in28minutes/Design-Patterns-For-Beginners/blob/master/DesignPatterns-Presentation.pdf
   - What are important Java EE Design Patterns? https://github.com/in28minutes/Java-EE-Design-Patterns
-- Some Creational patterns Examples
+##### Creational patterns (Object Creation)
   - Factory method
-    - java.util.Calendar#getInstance() & java.nio.charset.Charset#forName()
+    - create family of object types
+    - hides complexity of class definition for user
+      - java.util.Calendar#getInstance() & java.nio.charset.Charset#forName()
   - Prototype
-    - java.lang.Object#clone()
+    - Without creating the object again and again we copy from already created object 
+      - java.lang.Object#clone()
   - Singleton
+    - most famous
+    - only one instance per JVM 
+    - constructor should be private
+    - best way to create is using enum
+    - difficult to unit test
     - java.lang.Runtime#getRuntime() & java.lang.System#getSecurityManager()
-- Some Structural patterns
+  - Builder
+    - Separate object creation from its representation
+    - We can want to get an object with different ingredients, sometimes with one, sometimes with multiple etc.
+    
+##### Some Structural patterns (How structure is, if extends another)
   - Adapter
-    - java.util.Arrays#asList() & javax.xml.bind.annotation.adapters.XmlAdapter#marshal() and #unmarshal()
+    - match interfaces of different classes 
+      - java.util.Arrays#asList() & javax.xml.bind.annotation.adapters.XmlAdapter#marshal() and #unmarshal()
+         - sending json to webservice from java server is kind of adapter
+     
   - Decorator
+    - Add responsibility to objects dynamically
+      - Adding behavior dynamically 
+
     - All subclasses of java.io.InputStream, OutputStream etc. & java.util.Collections : synchronizedXXX() and unmodifiableXXX() methods.
   - Flyweight
+    - A fine-grained instance used for efficient sharing 
     - java.lang.Integer#valueOf(int) (also on other Wrapper classes)
-- Behavioral patterns
+        - public sharing switched telephone network 
+        - jdbc connection     
+  - Proxy
+    - an object representing another object
+      - debit card is a proxy for what is in our bank account 
+    - hides complexity of real object 
+  - Facade
+    - single class which represents an entire subsystem  
+      - ex: event manager, online book order
+    - reduce network calls
+    - reduce coupling 
+    - transactional boundary 
+    
+  
+##### Behavioral patterns (How one object communicate with another)
   - Chain of responsibility
-    - javax.servlet.Filter#doFilter() & Exception Handling
+    - passing request a chain of objects
+      - exception handling, check sequentially to parent objects if there are any exception handling 
+      
+      - loans approval for clerk, their manager then their manager 
+      - javax.servlet.Filter#doFilter() & Exception Handling
   - Command
     - java.lang.Runnable
   - Iterator
