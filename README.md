@@ -81,7 +81,7 @@
 - Reference
   - https://github.com/in28minutes/RealWorldWebApplicationWithServletsAndJspIn28Minutes/blob/master/Java%20JEE%20Web%20Applicaiton%20In28Minutes.pdf
   - Code : https://github.com/in28minutes/JavaWebApplicationStepByStep
-  - 60 Minute Video on JSP Servlets : https://www.youtube.com/watch?v=Vvnliarkw48
+  - ~~60 Minute Video on JSP Servlets : https://www.youtube.com/watch?v=Vvnliarkw48~~
 - Questions
   - Why do we need JSPs?
   - Explain JSP Lifecycle?
@@ -103,7 +103,7 @@
   - Java EE Patterns : https://www.udemy.com/java-ee-design-patterns-architecture-and-frameworks/?couponCode=JEEPATTERNS-UTUBE-1
   - Maven : https://www.udemy.com/learn-maven-java-dependency-management-in-20-steps/?couponCode=MAVEN-UTUBE-1
 
-# Design Patterns
+# ~~Design Patterns~~
 - Resources
   - Full Video on Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY
   - Java EE Design Patterns : https://github.com/in28minutes/Java-EE-Design-Patterns/blob/master/JavaEE%20Design%20Patterns%20and%20Architecture%20-%20Presentation%20v0.7.pdf
@@ -167,14 +167,40 @@
     - java.lang.Runnable
   - Iterator
     - All implementations of java.util.Iterator
+    - Sequential  ly access all objects 
+      - example: remote next/prev button
+  - State
+    - Alter object's behavior when its state changes
+      - example: fan control in wall
   - Strategy (recognizeable by behavioral methods in an abstract/interface type which invokes a method in an implementation of a different abstract/interface type which has been passed-in as method argument into the strategy implementation)
     - java.util.Comparator#compare(), executed by among others Collections#sort().
+    - incapsulates an algorithm inside a class
+      - example: using comparable implementation as parameter to choose which to use
+  - Observer Pattern 
+    - A way of notifying cnge to number of classes
+      - example: notify all the better, notify user that cricketer scored century.
+      
+  - Visitor Pattern
+    - Defines a new operation to a class without change
+      - example: we can extend/use functionality of a framework but cannot change it, when visitor get into a cab then only the driver has the control not the cab visitor. 
+   
   - Template method (recognizeable by behavioral methods which already have a "default" behaviour definied by an abstract type)
+    - High level details is given and low level details need to be implemented.
     - All non-abstract methods of java.util.AbstractList, java.util.AbstractSet and java.util.AbstractMap.
+      - example: floor plan, the foundation, framing, plumbing, wiring wall be identical for each houses so basic template is helpful. Variation can be added later.
+  - Command Pattern
+    - Example: Waiter take command pass to Chef then to Waiter then served, request object, Runnable class 
+  - Memento Pattern
+    - Capture and restore an object's internal state
+    - Example: Saving and restoring state at a certain position in game, Serializer in Java, undo & redo operation.
+  - Mediator Pattern
+    - Simplified communication between classes
+    - Example: Air traffic controller, ESB( application communicate )
+    
 - RECOMMENDED COURSES
-  - Java EE Patterns : https://www.udemy.com/java-ee-design-patterns-architecture-and-frameworks/?couponCode=JEEPATTERNS-UTUBE-1
-  - Maven : https://www.udemy.com/learn-maven-java-dependency-management-in-20-steps/?couponCode=MAVEN-UTUBE-1
-  - Spring MVC : https://www.udemy.com/spring-mvc-tutorial-for-beginners-step-by-step/?couponCode=SPRNGMVC-UTUBE-1
+  - ~~Java EE Patterns : https://www.udemy.com/java-ee-design-patterns-architecture-and-frameworks/?couponCode=JEEPATTERNS-UTUBE-1(paid -_-)~~
+  - ~~Maven : https://www.udemy.com/learn-maven-java-dependency-management-in-20-steps/?couponCode=MAVEN-UTUBE-1(paid -_-)~~
+  - ~~Spring MVC : https://www.udemy.com/spring-mvc-tutorial-for-beginners-step-by-step/?couponCode=SPRNGMVC-UTUBE-1(paid -_-)~~
   - JSP Servlets : https://www.udemy.com/learn-java-servlets-and-jsp-web-application-in-25-steps/?couponCode=JSPSRVLT-UTUBE-1
 
 # JDBC
