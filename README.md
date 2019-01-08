@@ -12,7 +12,7 @@
 
 - ~~Java Collections Interview Questions and Answers : https://www.youtube.com/watch?v=3hgYHXDVh-o & https://github.com/forhadmethun/java-cheat-sheet#collection-interfaces~~
 
-- Exception Handling : https://www.youtube.com/watch?v=wj3UmzeyrvE
+- ~~Exception Handling : https://www.youtube.com/watch?v=wj3UmzeyrvE~~
 
 - JUnit : https://www.youtube.com/watch?v=o5k9NOR9lrI
 - Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY
@@ -105,7 +105,7 @@
 
 # ~~Design Patterns~~
 - Resources
-  - Full Video on Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY
+  - ~~Full Video on Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY~~
   - Java EE Design Patterns : https://github.com/in28minutes/Java-EE-Design-Patterns/blob/master/JavaEE%20Design%20Patterns%20and%20Architecture%20-%20Presentation%20v0.7.pdf
   - Java Design Patterns : https://github.com/in28minutes/Design-Patterns-For-Beginners/blob/master/DesignPatterns-Presentation.pdf
   - What are important Java EE Design Patterns? https://github.com/in28minutes/Java-EE-Design-Patterns
