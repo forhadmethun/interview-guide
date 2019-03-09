@@ -15,7 +15,7 @@
 - ~~Exception Handling : https://www.youtube.com/watch?v=wj3UmzeyrvE~~
 
 - JUnit : https://www.youtube.com/watch?v=o5k9NOR9lrI
-- Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY
+- ~~Design Patterns : https://www.youtube.com/watch?v=f5Rzr5mVNbY~~
 
 - Eclipse : https://www.youtube.com/watch?v=s4ShbtOHMCA
 - Mockito : https://www.youtube.com/watch?v=d2KwvXQgQx4
@@ -53,10 +53,11 @@
 # Servlets
 - Reference
   -       https://github.com/in28minutes/RealWorldWebApplicationWithServletsAndJspIn28Minutes/blob/master/Java%20JEE%20Web%20Applicaiton%20In28Minutes.pdf
-  - Code : https://github.com/in28minutes/JavaWebApplicationStepByStep
-  - 60 Minute Video on JSP Servlets : https://www.youtube.com/watch?v=Vvnliarkw48
+  - ~~Code : https://github.com/in28minutes/JavaWebApplicationStepByStep~~
+  - ~~60 Minute Video on JSP Servlets : https://www.youtube.com/watch?v=Vvnliarkw48~~
 - Questions
   - If there are 1000 requests to a Servlet, how many instances of Servlet are created?
+    - Only one instance of servlet exist (per classloader) , and each request will be served on its own thread
   - What is the life-cycle of a servlet?
   - Difference between Get and Post Request Methods?
   - What is difference between GenericServlet and HttpServlet?
@@ -205,7 +206,7 @@
 
 # JDBC
 - Resources
-  - Video : https://www.youtube.com/watch?v=1WgsDP10iqw
+  - ~~Video : https://www.youtube.com/watch?v=1WgsDP10iqw( it is not about JDBC, it just teaches about spring hsql db)~~
 - Questions
   - When do you use JDBC?
   - Different types of JDBC Drivers
